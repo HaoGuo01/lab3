@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>ITMD 541 - Lab 3</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="content_box">
+            <div id="content">
+                <p>ITMD 541 - Lab 3 - Hao Guo</p>
+                <h1>Tip Calculator</h1>
+                <form>
+                    <ul>
+                        <li>
+                            <label>Bill Total:&nbsp;</label> 
+                            <input id="bill" type="number" placeholder="Please enter a number">
+                        </li>
+                        <li>
+                            <label>Tip:&nbsp;</label> 
+                            <label id="tip_percent"></label>
+                            <input id="tp_input" type="range" min="0" max="100" value="0">
+                        </li>
+                        <li>
+                            <label>Tip Percentage:&nbsp;</label> 
+                            <input id="tip_percentage" disabled>
+                        </li>
+                        <li>
+                            <label>Tip Amount:&nbsp;</label> 
+                            <input id="tip_amount" type="number" disabled>
+                        </li>
+                        <li>
+                            <label>Total Bill with Tip:&nbsp;</label> 
+                            <input id="total_bill" type="number" disabled>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
