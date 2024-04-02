@@ -9,10 +9,6 @@
     padding: 2%;
 }
 
-form{
-    /* margin: 10%; */
-}
-
 p{
     text-align: center;
 }
@@ -38,7 +34,6 @@ input{
 input[type="range"]{
     -webkit-appearance: none;
     color: black;
-    /* margin: 0; */
     padding: 0 2px;
     background-color: black;
     border-radius: 10px;
