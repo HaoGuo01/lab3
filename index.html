@@ -16,11 +16,12 @@
                 <h1>Tip Calculator</h1>
                 <form>
                     <ul>
-                        <li>
+                        <li id="first_li">
                             <label>Bill Total:&nbsp;</label> 
-                            <input id="bill" type="number" onKeyUp="value=value.replace(/\D/g,'')" placeholder="Please enter a number">
+                            <input id="bill" type="text" placeholder="Please enter a number">
+                            <label id="warn">Only numbers are allowed</label>
                         </li>
-                        <li>
+                        <li id="second_li">
                             <label>Tip:&nbsp;</label> 
                             <label id="tip_percent"></label>
                             <input id="tp_input" type="range" min="0" max="100" value="0">
